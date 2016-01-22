@@ -125,6 +125,7 @@
             <xsl:apply-templates select="dri:field/dri:error" mode="compositeComponent"/>
             <xsl:apply-templates select="dri:error" mode="compositeComponent"/>
         </div>
+        <div class='enableProperSpacingAfterYMDElements' style='clear:left'></div>
     </xsl:template>
 
     <!-- The handling of the special case of instanced composite fields under "form" lists -->
